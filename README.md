@@ -13,4 +13,26 @@ Tech Stack
 - Maven
 - Git & GitHub
 
+HRM-Automation-Framework
+│
+├── src/main/java
+│ ├── pages
+| ├── utilities
+├──src/main/resources
+├ ├── config.properties
+|
+|
+├── src/test/java
+│ ├── stepdefinitions
+│ ├── runner
+│
+├── src/test/resources
+│ ├── features
+│ 
+├── driver
+├── test-output
+├── pom.xml
+└── README.md
+  
+
 
