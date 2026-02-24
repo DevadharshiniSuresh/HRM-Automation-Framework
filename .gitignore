@@ -1,6 +1,10 @@
 target/
+test-output/
+.settings/
+.classpath
+.project
+driver/
 *.log
 screenshots/
-reports/
 
 
