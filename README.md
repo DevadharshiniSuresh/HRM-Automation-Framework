@@ -13,26 +13,32 @@ Tech Stack
 - Maven
 - Git & GitHub
 
-HRM-Automation-Framework
-│
-├── src/main/java
-│ ├── pages
-| ├── utilities
-├──src/main/resources
-├ ├── config.properties
-|
-|
-├── src/test/java
-│ ├── stepdefinitions
-│ ├── runner
-│
-├── src/test/resources
-│ ├── features
-│ 
-├── driver
-├── test-output
-├── pom.xml
-└── README.md
-  
+src
+ ├── main
+ │   ├── java
+ │   │   ├── PageObject
+ │   │   └── utilities
+ │   └── resources
+ │       └── config.properties
+ └── test
+     ├── java
+     │   ├── runner
+     │   └── stepdefinitions
+     └── resources
+         └── features
+
+##Features Implemented
+
+- Login Functionality
+- Add Employee
+- Search Employee
+- Update Employee
+- Delete Employee
+
+## ▶️ How to Run
+
+1. Clone the repository
+2. Run using TestRunner.java
+
 
 
