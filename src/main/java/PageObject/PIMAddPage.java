@@ -17,14 +17,18 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.By;
 
 //import io.cucumber.java.en.*;
-
-public class PIMAddPage extends BasePage {
+public class PIMAddPage {
 	WebDriver driver;
 	WebDriverWait wait;
 
 	public PIMAddPage(WebDriver driver) {
-	    super(driver);
-	}
+
+        this.driver = driver;
+
+        // VERY IMPORTANT LINE
+        PageFactory.initElements(driver, this);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    }
 
 
 	@FindBy(xpath="//a[contains(@href,'pim')]")
