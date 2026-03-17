@@ -35,6 +35,8 @@ src
 - Update Employee
 - Delete Employee
 
+Automation framework integrated with Jenkins CI.
+
 ## ▶️ How to Run
 
 1. Clone the repository
